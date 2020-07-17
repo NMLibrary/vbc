@@ -1,7 +1,7 @@
 # vbc
-バーチャルにabcを再現できるPython3向けツールです。
+バーチャルにクイズ大会「abc」を再現できるPython3向けツールです。
 
-本家のクイズ大会: http://abc-dive.com/
+本家のクイズ大会「abc」: http://abc-dive.com/
 
 ## 使用方法
 
