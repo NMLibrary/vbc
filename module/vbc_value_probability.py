@@ -30,7 +30,7 @@ def ox_answer_probability(players, index, difficulty, slash_point):
         if player.win:
             winner_number += 1
     player = players[index]
-    value = calculate_base_probability(0.35, ox_knowledge_modify(player, winner_number), difficulty, player.speed, slash_point + 2)
+    value = calculate_base_probability(0.45, ox_knowledge_modify(player, winner_number), difficulty, player.speed, slash_point + 2)
     if 10 - player.miss >= 5:
         value /= 1.2
     elif 10 - player.miss == 1:
